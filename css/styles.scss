@@ -15,21 +15,21 @@ body {
 
 // Child 
 #stage svg {
-    width: 100px;
+    width: 500px;
     position: absolute;
-    right: 0;
-    bottom: 0;
+    bottom: 10px;
+    
 }
 
 
 // Child
-#stage h1 {
-    font-size: 1em;
-    position: absolute;
-    bottom: 80%;
-    left: 40%;
-    margin: 0;
-}
+//#stage h1 {
+//    font-size: 1em;
+//    position: absolute;
+//    bottom: 80%;
+//    left: 40%;
+//    margin: 0;
+//}
 
 #google {
      width: 400px;
@@ -38,14 +38,14 @@ body {
 }
 
 // Animations Go Here
-#stage h1 {
-
-    opacity: 0;
-    transition: opacity 2.5s;
-} 
+//#stage h1 {
+//
+//    opacity: 0;
+//   transition: opacity 2.5s;
+//} 
 
 // Last Frame
-#stage:hover h1,
+//#stage:hover h1,
 #stage:hover svg {
     opacity: 1;
    
