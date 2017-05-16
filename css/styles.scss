@@ -14,13 +14,20 @@ body {
 }
 
 // Child 
-#stage svg {
+#Layer_1 {
     width: 500px;
     position: absolute;
     bottom: 10px;
     right: 50px;
     
 }
+
+#Layer_2 {
+    width: 75px;
+    position: absolute;
+    bottom: 40px;
+    left: 125px;
+} 
 
 
 // Child
@@ -45,14 +52,20 @@ body {
 //   transition: opacity 2.5s;
 //} 
 
-#stage svg {
-    animation: ScreenUp 3s infinite alternate-reverse both;
+#Layer_1 {
+    animation: ScreenUp 3s 2s infinite alternate-reverse both;
 //    animation-duration: 3s;
 //    animation-iteration-count: infinite;
 //    animation-direction: alternate-reverse;
 //    animation-delay: 10s;
 //    animation-fill-mode: both;
 }
+
+//
+//#Layer_2 {
+//    animation: SqRight 5s infinite alternate-reverse both;
+//}
+
 
 // Last Frame
 //#stage:hover h1,
@@ -68,3 +81,21 @@ body {
     100% {bottom: 10px }
 }
 
+//@keyframes SqRight {
+//    0% { bottom: 350px;
+//         left: 400px }
+//    
+//   25% { bottom: 350px;
+//         left: 400px }
+//    
+//    
+//    
+//     50% { bottom: 40px;
+//          left: 400px }
+//
+//    75%  { left: 125px }
+//    100% { left: 125px }
+//    
+//}
+//
+//
