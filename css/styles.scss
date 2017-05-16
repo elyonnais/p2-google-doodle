@@ -7,6 +7,11 @@ body {
     background: #ffffff;
 }
 
+
+a {
+    text-decoration: none;
+}
+
 // Stage (Parent)
 #stage {
     position: relative; 
@@ -31,13 +36,14 @@ body {
 
 
 // Child
-//#stage h1 {
-//    font-size: 1em;
-//    position: absolute;
-//    bottom: 80%;
-//    left: 40%;
-//    margin: 0;
-//}
+#stage h1 {
+    font-size: 12px;
+    position: absolute;
+    bottom: 50%;
+    left: 38%;
+    margin: 0;
+    opacity: 0;
+}
 
 #google {
      width: 275px;
@@ -62,12 +68,12 @@ body {
 }
 
 #Layer_2 {
-    animation: SqRight 5s infinite alternate-reverse both;
+    animation: SqRight 3s infinite alternate-reverse both;
 }
 
 
 // Last Frame
-//#stage:hover h1,
+#stage:hover h1,
 #stage:hover svg {
     opacity: 1;
    
@@ -76,7 +82,7 @@ body {
 
 @keyframes ScreenUp {
     0% { bottom: 350px }
-    75% { bottom: 10px }
+    60% { bottom: 10px }
     100% {bottom: 10px }
 }
 
