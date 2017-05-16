@@ -71,6 +71,8 @@ a {
     animation: SqRight 3.5s infinite alternate-reverse both;
 }
 
+#google {
+    animation: ShowGoogle 3.5s infinite alternate-reverse both;
     
 }
 
@@ -81,6 +83,17 @@ a {
    
 }
 
+
+@keyframes ShowGoogle {
+    
+    0% {opacity: 1}
+    25% {opacity: 1}
+    30% {opacity: .75}
+    40% {opacity: .5}
+    50% {opacity: .25}
+    75% {opacity: 0}
+    100% {opacity: 0}
+}
 
 @keyframes ScreenUp {
     0% { bottom: 350px }
@@ -95,14 +108,14 @@ a {
    25% { bottom: 350px;
          left: 400px }
     
-    
-    
    50% { bottom: 40px;
           left: 400px }
 
    75%  { left: 125px }
+    
     100% { left: 125px }
     
 }
+
 
 
